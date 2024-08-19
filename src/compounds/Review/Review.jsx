@@ -103,7 +103,7 @@ const Review = () => {
   return (
     <div className="circle">
       <div className="container mx-auto py-12 md:py-24">
-        <div className="flex items-center">
+        <div className="md:flex items-center">
           <div className="w-full md:w-1/3 text-center md:text-left px-5 lg:px-0">
             <Header
               title="Client Review"

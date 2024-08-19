@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blogs = () => {
   return (
-    <div className="circle py-20 md:pl-10 lg:pl-0">
+    <div className="circle py-20 px-5">
       <div className="container mx-auto">
         <Header
           title="Our Latest Blog"

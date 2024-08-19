@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const BlogCard = ({ image, title, author, comments }) => {
   return (
-    <div className="shadow-md bg-white rounded-3xl mt-10 mx-5 md:mx-0 lg:mt-0">
+    <div className="shadow-md bg-white rounded-3xl mt-10 lg:mt-0">
       <div className="lg:w-[369px] h-[240px] ">
         <img src={image} alt="" className="w-full h-full rounded-t-3xl" />
       </div>

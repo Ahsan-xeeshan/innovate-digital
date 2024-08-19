@@ -10,7 +10,7 @@ import dots from "../../assets/dots.png";
 import remark from "../../assets/remark.png";
 const About = () => {
   return (
-    <div className="w-full h-[780px] circle py-16 bg-gray-100 pt-12 lg:pt-[100px]">
+    <div className="w-full lg:h-[780px] circle py-16 bg-gray-100 pt-12 lg:pt-[100px]">
       <div className="container mx-auto px-4 md:px-0 flex">
         <div className="w-1/2 hidden lg:block h-full relative">
           <img src={dots} alt="" className="my-[190px] h-[175px]" />
