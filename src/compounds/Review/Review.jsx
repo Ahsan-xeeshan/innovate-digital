@@ -7,7 +7,7 @@ import Header from "../Header/Header";
 
 const SampleNextArrow = ({ onClick }) => (
   <button
-    className="w-12 h-12 md:w-[60px] md:h-[60px] hidden md:block rounded-full bg-[#f3dbce] hover:bg-btnColor text-center absolute md:left-[-320px] lg:left-[-530px] bottom-[-10px] md:bottom-0"
+    className="w-12 h-12 md:w-[60px] md:h-[60px] hidden md:block rounded-full bg-[#f3dbce] hover:bg-btnColor text-center absolute md:left-[-190px] lg:left-[-530px] lg:bottom-[-30px] md:bottom-[-170px]"
     onClick={onClick}
   >
     <FaChevronRight className="text-white mx-auto my-3 md:my-5 text-xl font-semibold" />
@@ -16,7 +16,7 @@ const SampleNextArrow = ({ onClick }) => (
 
 const SamplePrevArrow = ({ onClick }) => (
   <button
-    className="w-12 h-12 md:w-[60px] md:h-[60px] hidden md:block rounded-full bg-[#f3dbce] hover:bg-btnColor text-center absolute left-[-100px] md:left-[-390px] lg:left-[-620px] bottom-[-10px] md:bottom-0"
+    className="w-12 h-12 md:w-[60px] md:h-[60px] hidden md:block rounded-full bg-[#f3dbce] hover:bg-btnColor text-center absolute left-[-100px] md:left-[-260px] lg:left-[-620px] lg:bottom-[-30px] md:bottom-[-170px]"
     onClick={onClick}
   >
     <FaChevronLeft className="text-white mx-auto my-3 md:my-5 text-xl font-semibold" />
@@ -86,7 +86,7 @@ const Review = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -103,15 +103,15 @@ const Review = () => {
   return (
     <div className="circle">
       <div className="container mx-auto py-12 md:py-24">
-        <div className="flex flex-col md:flex-row gap-10">
-          <div className="w-full md:w-1/3 text-center md:text-left">
+        <div className="flex items-center">
+          <div className="w-full md:w-1/3 text-center md:text-left px-5 lg:px-0">
             <Header
               title="Client Review"
               para="People use digital devices instead of visiting physical shops, digital marketing campaigns are becoming more prevalent and efficient."
               style="mx-auto md:mx-0"
             />
           </div>
-          <div className="w-full md:w-2/3 lg:px-24">
+          <div className="w-full md:w-2/3 px-5 lg:px-24">
             <Slider {...settings}>
               {review_data.map((item) => (
                 <div

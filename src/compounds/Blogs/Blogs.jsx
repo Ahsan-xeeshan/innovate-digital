@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 
 const Blogs = () => {
   return (
-    <div className="circle py-20">
+    <div className="circle py-20 md:pl-10 lg:pl-0">
       <div className="container mx-auto">
         <Header
           title="Our Latest Blog"
@@ -11,7 +11,7 @@ const Blogs = () => {
           style="mx-auto"
           align="text-center"
         />
-        <div className="md:flex justify-center items-center mt-16 gap-x-10">
+        <div className="lg:flex justify-center items-center mt-16 gap-x-10">
           <BlogCard
             image="./images/blogOne.jpg"
             title="How to Be Ahead of Stock Changes"

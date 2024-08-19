@@ -29,3 +29,15 @@ body {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+
+@media screen and (min-width: 480px) {
+  .slick-slide > div {
+    margin: 0 5px; /* Adjust for smaller screens */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .slick-slide > div {
+    margin: 0 10px; /* Adjust for medium screens */
+  }
+}

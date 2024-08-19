@@ -22,7 +22,7 @@ const About = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 h-full text-center lg:text-start">
-          <div className="pl-8">
+          <div className="lg:pl-8">
             <img src={remark} alt="" className="mt-10 mx-auto lg:mx-0" />
             <h3 className="font-open font-extrabold text-5xl py-8 ">
               Who We Are
@@ -37,7 +37,7 @@ const About = () => {
               Join the 10.000+ Companys Trusting{" "}
             </p>
           </div>
-          <div className="flex w-full sm:w-1/2 md:w-1/3 lg:w-[452px] flex-wrap gap-y-2">
+          <div className="flex w-full lg:w-[452px] flex-wrap gap-y-2 mx-16 md:mx-0">
             <img src={comOne} alt="" />
             <img src={comTwo} alt="" />
             <img src={comThree} alt="" />

@@ -71,7 +71,7 @@ const Gallery = () => {
       <div className="container mx-auto pt-9">
         <Header title="Work Showcase" align="text-center" style="mx-auto" />
         <div className="mt-16">
-          <ul className="flex flex-wrap gap-4 md:gap-10 text-xl md:text-2xl mb-5 font-open text-[#6C7D93] font-semibold pb-10 overflow-x-auto">
+          <ul className="flex flex-wrap mx-3 md:0 gap-4 md:gap-10 text-xl md:text-2xl mb-5 font-open text-[#6C7D93] font-semibold pb-10 overflow-x-auto">
             <li>
               <button
                 className={`hover:text-btnColor transition-all duration-300 ${
@@ -96,7 +96,7 @@ const Gallery = () => {
             ))}
           </ul>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 py-5 mx-5 md:mx-0">
           {data.map((item) => (
             <div key={item.id} className="m-4">
               <img

@@ -1,6 +1,6 @@
 const Copyright = () => {
   return (
-    <div className="md:flex justify-between mt-5 font-open text-lg text-[#6C7D93]">
+    <div className="lg:flex justify-between mt-5 font-open text-lg text-[#6C7D93]">
       <div className="w-full lg:w-2/3 text-center lg:text-start">
         <p>@2024 Innovate.All rights reserved.</p>
       </div>

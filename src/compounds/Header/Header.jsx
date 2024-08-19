@@ -10,7 +10,9 @@ const Header = ({ title, para, style, align }) => {
         className={`w-[80px] md:w-[100px] lg:w-[120px] ${style}`}
       />
       <h3 className="font-extrabold text-[48px] font-open my-3">{title}</h3>
-      <p className={`font-paprika text-[#6C7D93] text-lg w-[332px] ${style}`}>
+      <p
+        className={`font-paprika text-[#6C7D93] text-lg md:w-[250px] lg:w-[332px] ${style}`}
+      >
         {para}
       </p>
     </div>

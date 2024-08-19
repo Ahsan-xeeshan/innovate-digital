@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="circle py-20">
       <div className="container mx-auto">
-        <div className="md:flex flex-wrap">
+        <div className="md:flex md:pl-10 lg:pl-0 flex-wrap">
           <div className="md:w-1/2 lg:w-2/5">
             <img src={Logo} alt="" />
             <p className="font-open text-xl text-[#6C7D93] lg:w-[490px] capitalize py-10">
@@ -13,7 +13,7 @@ const Footer = () => {
               or multi-page.
             </p>
           </div>
-          <div className="md:w-1/2 lg:w-1/5">
+          <div className="md:w-1/2 md:pl-10 lg:pl-0 lg:w-1/5">
             <h3 className="font-open text-2xl font-semibold">Features</h3>
             <ul className="mt-8 font-open text-xl text-[#6C7D93] font-semibold">
               <li className="mb-8 hover:ml-2 transition-all duration-500">
@@ -47,7 +47,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="md:w-1/2 lg:w-1/5">
+          <div className="md:w-1/2 md:pl-10 lg:pl-0 lg:w-1/5">
             <h3 className="font-open text-2xl font-semibold">Support</h3>
             <ul className="mt-8 font-open text-xl text-[#6C7D93] font-semibold">
               <li className="mb-8 hover:ml-2 transition-all duration-500">

@@ -2,7 +2,7 @@
 const ProcessCard = ({ step, title, para, style }) => {
   return (
     <div
-      className={`w-[370px] lg:w-[465px] p-4 md:p-6 lg:p-8 mx-5 md:mx-0  rounded-[20px] ${style}`}
+      className={`w-[360px] lg:w-[465px] p-4 md:p-6 lg:p-8 mx-5 md:mx-0  rounded-[20px] ${style}`}
     >
       <span className="relative group font-open text-lg font-bold py-2 px-3 bg-transparent border-none rounded-full text-current overflow-hidden transition-all duration-500">
         {step}

@@ -6,7 +6,7 @@ import ServiceCard from "./ServiceCard";
 
 const Services = () => {
   return (
-    <div className="w-full h-auto circle py-16 bg-gray-100">
+    <div className="w-full h-auto circle py-4 lg:py-16 bg-gray-100">
       <div className="container mx-auto px-4 md:px-0">
         <Header
           title="Our Services"
