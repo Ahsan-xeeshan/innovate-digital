@@ -37,7 +37,7 @@ const About = () => {
               Join the 10.000+ Companys Trusting{" "}
             </p>
           </div>
-          <div className="flex w-full lg:w-[452px] flex-wrap gap-y-2 mx-16 md:mx-0">
+          <div className="flex w-full lg:w-[452px] flex-wrap gap-y-2 px-10 md:px-0">
             <img src={comOne} alt="" />
             <img src={comTwo} alt="" />
             <img src={comThree} alt="" />

@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="circle py-20">
       <div className="container mx-auto">
-        <div className="md:flex md:pl-10 lg:pl-0 flex-wrap">
+        <div className="md:flex pl-5 md:pl-10 lg:pl-0 flex-wrap">
           <div className="md:w-1/2 lg:w-2/5">
             <img src={Logo} alt="" />
             <p className="font-open text-xl text-[#6C7D93] lg:w-[490px] capitalize py-10">

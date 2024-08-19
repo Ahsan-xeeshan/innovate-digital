@@ -77,13 +77,6 @@ const Review = () => {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
@@ -91,7 +84,7 @@ const Review = () => {
         },
       },
       {
-        breakpoint: 380,
+        breakpoint: 680,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -111,7 +104,7 @@ const Review = () => {
               style="mx-auto md:mx-0"
             />
           </div>
-          <div className="w-full md:w-2/3 px-5 lg:px-24">
+          <div className="w-full md:w-2/3 px-5 lg:px-24 py-5 md:py-0">
             <Slider {...settings}>
               {review_data.map((item) => (
                 <div

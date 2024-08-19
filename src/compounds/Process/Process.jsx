@@ -12,7 +12,7 @@ const Process = () => {
           align="text-center"
         />
         <div className="py-20">
-          <div className="flex gap-6 lg:gap-2">
+          <div className="md:flex md:gap-6 lg:gap-2">
             <div className="w-full md:w-1/2 my-auto">
               <ProcessCard
                 step="Step-1"
@@ -30,7 +30,7 @@ const Process = () => {
               />
             </div>
           </div>
-          <div className="flex gap-2 my-5">
+          <div className="md:flex gap-2 my-5">
             <div className="w-1/2 hidden md:block">
               <img
                 src={"./images/a3.jpg"}
@@ -48,7 +48,7 @@ const Process = () => {
               />
             </div>
           </div>
-          <div className="flex gap-2">
+          <div className="md:flex gap-2">
             <div className="w-full md:w-1/2 my-auto">
               <ProcessCard
                 step="Step-3"
